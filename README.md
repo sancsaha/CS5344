@@ -1,2 +1,1 @@
-# CS5344
-Project code
+Analyzing the Impact of COVID-19 Using Twitter Data
