@@ -3,7 +3,6 @@
 ## Project Overview:
 
 
-
 ## Dataset:
 The dataset utilized in this project is centered around English tweets related to the COVID-19 pandemic, specifically those incorporating the widely used #covid19 hashtag. Acquired through the Twitter API and a Python script, the dataset spans the period from July 25, 2020, to August 30, 2020. Daily queries were executed to capture tweets featuring high-frequency hashtags, resulting in a dataset that serves as the foundational source for comprehensive analysis.
 
@@ -25,10 +24,7 @@ The project utilizes the following Python libraries and tools:
 - **TextBlob:** A library for processing textual data, including sentiment analysis.
 - **TfidfVectorizer:** A scikit-learn library for converting text data to a TF-IDF matrix.
 
-Please make sure to install these dependencies before running the script. You can install them using the following command:
-
-
-## Tasks Performed:
+Please make sure to install these dependencies before running the script.
 
 
 
