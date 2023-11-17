@@ -1,4 +1,12 @@
 # Analyzing the Impact of COVID-19 Using Twitter Data
+This project was collaboratively undertaken by the following team members:
+
+- Sanchari Saha (A0281052N)
+- Tan Yi Kai (A0121571R)
+- Le Goff Loick (A0281044M)
+- Anocha Sutaveephamochanon (A0268230J)
+  
+Their combined efforts and expertise contributed to the successful execution and completion of the project.
 
 ## Project Overview
 
