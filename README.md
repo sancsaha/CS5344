@@ -9,10 +9,10 @@ This project was collaboratively undertaken by the following team members:
 Their combined efforts and expertise contributed to the successful execution and completion of the project.
 
 ## Project Overview
+The COVID-19 pandemic has triggered a surge in global discourse on Twitter, making it a dynamic platform for discussions and insights into various aspects of the crisis. In this project, we delve into the virtual realm of Twitter to dissect the discourse surrounding COVID-19. Our exploration encompasses a wide range of tasks aimed at unraveling topics, sentiments, and user trends during the specified timeframe.
 
+### Tasks Performed
 
-## Tasks Performed
-These tasks collectively contribute to a thorough exploration and understanding of the COVID-19 discourse on Twitter, providing valuable insights into topics, sentiment, and user trends during the specified timeframe.
 - Data Quality Assessment
 - Exploratory Data Analysis
 - Data Preprocessing
