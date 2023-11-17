@@ -1,9 +1,20 @@
 # Analyzing the Impact of COVID-19 Using Twitter Data
 
-## Project Overview:
+## Project Overview
 
 
-## Dataset:
+## Tasks Performed
+These tasks collectively contribute to a thorough exploration and understanding of the COVID-19 discourse on Twitter, providing valuable insights into topics, sentiment, and user trends during the specified timeframe.
+- Data Quality Assessment
+- Exploratory Data Analysis
+- Data Preprocessing
+- Topic Modeling
+- Sentiment and Emotion Analysis
+- Word Cloud Analysis
+- Predictive ML models in Sentiment Analysis
+- Update Classification of words
+
+## Dataset
 The dataset utilized in this project is centered around English tweets related to the COVID-19 pandemic, specifically those incorporating the widely used #covid19 hashtag. Acquired through the Twitter API and a Python script, the dataset spans the period from July 25, 2020, to August 30, 2020. Daily queries were executed to capture tweets featuring high-frequency hashtags, resulting in a dataset that serves as the foundational source for comprehensive analysis.
 
 The dataset, licensed under CC0: Public Domain, is accessible on [Kaggle](https://www.kaggle.com/datasets/gpreda/covid19-tweets/data) and comprises a total of 170,000 tweets, with each tweet corresponding to a distinct row in the dataset. Key columns include Timestamp, representing the date and time of each tweet, Tweet Text, Hashtags, and User Information, encompassing details such as user name, follower count, and more.
@@ -28,7 +39,7 @@ Please make sure to install these dependencies before running the script.
 
 
 
-## To run the code:
+## To run the code
 
 We have 4 different scripts, which perform different tasks and subtasks.
 
