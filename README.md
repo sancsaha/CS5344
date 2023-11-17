@@ -1,25 +1,42 @@
-**Analyzing the Impact of COVID-19 Using Twitter Data**
+# Analyzing the Impact of COVID-19 Using Twitter Data
 
-Project Overview:
+## Project Overview:
 
 
 
-**Dataset:**
+## Dataset:
 The dataset utilized in this project is centered around English tweets related to the COVID-19 pandemic, specifically those incorporating the widely used #covid19 hashtag. Acquired through the Twitter API and a Python script, the dataset spans the period from July 25, 2020, to August 30, 2020. Daily queries were executed to capture tweets featuring high-frequency hashtags, resulting in a dataset that serves as the foundational source for comprehensive analysis.
 
 The dataset, licensed under CC0: Public Domain, is accessible on [Kaggle](https://www.kaggle.com/datasets/gpreda/covid19-tweets/data) and comprises a total of 170,000 tweets, with each tweet corresponding to a distinct row in the dataset. Key columns include Timestamp, representing the date and time of each tweet, Tweet Text, Hashtags, and User Information, encompassing details such as user name, follower count, and more.
 
+## Dependencies
 
-Tasks Performed:
+The project utilizes the following Python libraries and tools:
+
+- **Pandas:** A data manipulation and analysis library.
+- **NumPy:** A library for numerical operations in Python.
+- **NLTK (Natural Language Toolkit):** A library for natural language processing tasks.
+- **Matplotlib:** A plotting library for creating static, interactive, and animated visualizations.
+- **Seaborn:** A statistical data visualization library.
+- **Plotly Express:** A library for creating interactive plots and dashboards.
+- **Spark (PySpark):** Apache Spark's Python API for distributed data processing.
+- **Scikit-learn:** A machine learning library for various tasks, including text classification.
+- **WordCloud:** A library for creating word clouds from text data.
+- **TextBlob:** A library for processing textual data, including sentiment analysis.
+- **TfidfVectorizer:** A scikit-learn library for converting text data to a TF-IDF matrix.
+
+Please make sure to install these dependencies before running the script. You can install them using the following command:
+
+
+## Tasks Performed:
 
 
 
-To run the code:
+## To run the code:
 
 We have 4 different scripts, which perform different tasks and subtasks.
 
-**part1.py**
-
+### part1.py: 
 This Python script performs sentiment analysis and sentiment classification on a dataset of tweets related to COVID-19. The script utilizes various natural language processing (NLP) techniques, machine learning models, and data visualization tools. Here's an overview of the main functionalities:
 
 #### 1. Data Preprocessing
@@ -46,6 +63,10 @@ This Python script performs sentiment analysis and sentiment classification on a
 - Two text classification models, Multinomial Naive Bayes, and Random Forest, are implemented using the scikit-learn library.
 - The script splits the dataset into training and testing sets, trains the models, and evaluates their performance using accuracy metrics and confusion matrices.
 - Classification reports and visualizations, including confusion matrices and bar plots, provide a comprehensive view of model performance.
+
+### part2.py:
+### part3.py:
+### part4.py:
 
 ### Usage Instructions
 
