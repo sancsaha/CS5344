@@ -80,6 +80,14 @@ This Python script performs sentiment analysis and sentiment classification on a
 - Classification reports and visualizations, including confusion matrices and bar plots, provide a comprehensive view of model performance.
 
 ### part2.py:
+Exploratory Data Analysis (EDA) on date-time and location fields
+
+- Extract date-time related fields, mapReduce 
+- Extract locatation fields  fields, mapReduce
+
+### part2.ipynb:
+Plot date-time and location related analysis results in part2.ipynb
+
 ### part3.py:
 - Part 3  consists of sentiment analysis and emotion analysis.
 
