@@ -81,6 +81,19 @@ This Python script performs sentiment analysis and sentiment classification on a
 
 ### part2.py:
 ### part3.py:
+- Part 3  consists of sentiment analysis and emotion analysis.
+
+#### 1. Sentiment Analysis
+- The script uses NLTK SentimentIntensityAnalyzer and Text Blob to obtain sentiment polarity and subjectivity
+
+#### 2. Emotion Analysis
+- The script uses NRC Lex to obtain various emotion scores associated with each tweeet.
+
+#### 3. Visualization
+- Various charts are added in the Python notebook to aid in visualization.
+- These include trend charts for sentiment and emotion scores, broken down by country.
+- Word clouds show the keywords that are associated to each sentiment polarity and emotions
+
 ### part4.py:
 
 ### Usage Instructions
