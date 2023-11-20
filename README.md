@@ -100,15 +100,30 @@ Plot the date-time and location related analysis results in part2.ipynb
 - The script uses NLTK SentimentIntensityAnalyzer and Text Blob to obtain sentiment polarity and subjectivity
 
 #### 2. Emotion Analysis
-- The script uses NRC Lex to obtain various emotion scores associated with each tweeet.
+- The script uses NRC Lex to obtain various emotion scores associated with each tweet.
 
 #### 3. Visualization
 - Various charts are added in the Python notebook to aid in visualization.
 - These include trend charts for sentiment and emotion scores, broken down by country.
-- Word clouds show the keywords that are associated to each sentiment polarity and emotions
+- Word clouds show the keywords that are associated with each sentiment polarity and emotions
 
-### part4.py:
+### part4:
 
+1. Data Preprocessing
+
+    In the preprocess folder there is a Python script to extract the texts of the tweets from the CSV data file. The output is a text file, where each line is the text of the corresponding tweet of the CSV file.
+    We only keep the alphanumeric characters and spaces. The processed data can be found in the processed_data folder. One is the entire month of data, and the other is by weeks
+
+2. Positive and negative word lists
+
+    There are two text files: positive_words and negative-words, they are lists of words with a positive or a negative meaning. These files can be modified if we want to introduce more negative and positive words. 
+
+3. Positive and Negative scores
+
+   With a map-reduce we do a word count, then we only keep the words with a count above the threshold of 1000. For each frequent word, we generate a pair (word, positive) every time a positive word is in the same tweet. We do the same with negative words.
+   We count the pairs with a map-reduce. The sum  (count(word, positive) + count(word, negative)) is calculated with a map-reduce.
+   The positive score will be count(word, positive) / (count(word, positive) + count(word, negative)).
+   
 ### Usage Instructions
 
 To run the script successfully, ensure that the required Python libraries and dependencies are installed. The script can be executed in a Jupyter notebook or any Python environment that supports the specified libraries. Additionally, users may need to adjust file paths or dataset sources based on their local setup.
