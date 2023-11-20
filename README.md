@@ -82,13 +82,13 @@ This Python script performs sentiment analysis and sentiment classification on a
 ### part2.py:
 #### 1. Exploratory Data Analysis (EDA) on date-time and location fields
 
-- Extract date-time related fields, mapReduce 
-- Extract location related fields, mapReduce
+- The script uses pyspark mapReduce to extract date-time related fields.
+- The script uses pyspark mapReduce, geopy and googlemap API to extract location related fields.
 
 #### 2. Sentiment polarity Analysis
 
-- Extract text polarity using Text-blob
-- MapReduce and pivot with country and continent
+- The script uses Text-blob to extract text polarity.
+- The script uses mapReduce and pivot with country and continent to get the statistic.
   
 ### part2.ipynb:
 Plot the date-time and location related analysis results in part2.ipynb
